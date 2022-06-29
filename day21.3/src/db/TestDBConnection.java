@@ -13,9 +13,9 @@ public class TestDBConnection {
 	private static String joyDetails = "insert into joyDetails(id,name) values(?,?)";
 
 	public static void main(String[] args) {
-		String url = "jdbc:mysql://localhost:3306/hardik1703?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true";
+		String url = "jdbc:mysql://localhost:3306/joy22?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true";
 		String userName = "root";
-		String password = "root";
+		String password = "Joy@pahari10";
 		try (Scanner scan = new Scanner(System.in)) {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			System.out.println("Loaded JDBC driver class in the method area....");
